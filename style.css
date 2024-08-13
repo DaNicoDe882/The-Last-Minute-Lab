@@ -140,7 +140,7 @@ footer {
 }
 
 /* Back to main page button */
-.back-to-main {
+.back-to-main, .download-button {
     display: inline-block;
     margin-top: 2em;
     padding: 0.5em 1em;
