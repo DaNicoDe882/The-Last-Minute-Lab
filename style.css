@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2b2b2b;
+    padding: 1em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    background-color: #333;
+    padding: 1em;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em; /* Adds space between the different sections */
+}
+
+/* Add background and border to each section within the aside */
+.profile, nav, .extras {
+    background-color: #1f1f1f;
+    padding: 1em;
+    border: 1px solid #242323;
+    border-radius: 10px;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+nav h2, .extras h2 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0.5em 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0.5em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+main {
+    background-color: #1f1f1f;
+    padding: 1em;
+    width: 60%;
+}
+
+.right-sidebar {
+    background-color: #333;
+    padding: 1em;
+    width: 20%;
+}
+
+.introduction {
+    margin-bottom: 2em;
+}
+
+.introduction img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.article-summary {
+    background-color: #444;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.article-summary img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #6200ea;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #3700b3;
+}
+
+footer {
+    background-color: #444;
+    padding: 1em;
+    text-align: center;
+}
+
+
+/* Container for the full article */
+.article-container {
+    background-color: #3c3c3c;
+    padding: 2em;
+    margin: 2em auto;
+    border-radius: 10px;
+    width: 80%;
+}
+
+/* Article images */
+.article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+/* Back to main page button */
+.back-to-main, .download-button {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0.5em 1em;
+    background-color: #6200ea;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-main:hover {
+    background-color: #3700b3;
+}
+
+article ol li {
+    line-height: 1.6; /* Adjust this value for more or less spacing */
+    margin-bottom: 0.5em; /* Optional: Adds extra space below each list item */
+}
